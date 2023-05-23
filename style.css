@@ -1,6 +1,16 @@
-ul + p {
-  font-size: 24px;
+h3:first-child {
+  color: pink;
+} 
+[id="greycol"] {
+  color: grey;
 }
-a[href*='https'] {
+p:first-child {
   color: red;
+}
+
+[class="yellow"] {
+  color: yellow;
+}
+p:nth-child(7) {
+  color: green;
 }
